@@ -1,5 +1,5 @@
 {
-  "name": "myweb",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@cloudflare/next-on-pages": "^1.13.7",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
