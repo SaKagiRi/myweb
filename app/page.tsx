@@ -1,15 +1,9 @@
 import Image from "next/image";
-import { FaDiscord } from 'react-icons/fa';
+import { FaDiscord, FaFacebookSquare, FaYoutube, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { SiNixos, SiNextdotjs, SiCoursera } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
-import { SiNixos } from "react-icons/si";
-import { FaCss3Alt } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
-import { SiCoursera } from "react-icons/si";
 import { VscTerminalBash } from "react-icons/vsc";
-import { FaHtml5 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 
 export default function Home() {
