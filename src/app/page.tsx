@@ -33,7 +33,7 @@ export default function Home() {
 			<div className="flex flex-row gap-10 w-5/6 mt-20 h-1/2">
 				<div className="w-1/3 flex justify-center items-center flex-col">
 						<Image
-							src="/static/knakto.jpg"
+							src="/knakto.jpg"
 							alt="Picture of the author"
 							width={400}
 							height={400}
@@ -80,7 +80,7 @@ export default function Home() {
 				</div>
 			</div>
 		</section>
-		<section className="bg-[#0F1217] flex justify-center items-center bg-[url(/static/photo-00.jpg)] bg-opacity-60 h-screen w-screen">
+		<section className="bg-[#0F1217] flex justify-center items-center bg-[url(/photo-00.jpg)] bg-opacity-60 h-screen w-screen">
 			<div className="bg-[#3A3C41] flex flex-row w-3/4 h-3/4 bg-opacity-80 rounded-[100px]">
 				<div className="w-1/2">
 					<h1 className="text-5xl text-[#33ECD5] mt-20 ml-20">About Me</h1>
@@ -106,7 +106,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="w-1/2 flex flex-col justify-center items-center">
-					<Image src="/static/photo-01.jpg" width={600} height={500} alt="photo-01" className="" />
+					<Image src="/photo-01.jpg" width={600} height={500} alt="photo-01" className="" />
 					<p className="mt-10 text-2xl">My Programming Language.</p>
 					<div className="flex flex-row gap-7 mt-3">
 						<div className="flex flex-col items-center">
