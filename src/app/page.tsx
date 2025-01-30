@@ -141,24 +141,24 @@ export default function Home() {
 			</div>
 		</section>
 		<section className="bg-[#454B52] h-screen w-screen">
-			<head>
+			<div>
 
-			</head>
+			</div>
 		</section>
 		<section className="bg-black h-screen w-screen">
-			<head>
+			<div>
 
-			</head>
+			</div>
 		</section>
 		<section className="bg-[#454B52] h-screen w-screen">
-			<head>
+			<div>
 
-			</head>
+			</div>
 		</section>
 		<section className="bg-black h-screen w-screen">
-			<head>
+			<div>
 
-			</head>
+			</div>
 		</section>
 	  </section>
   );
