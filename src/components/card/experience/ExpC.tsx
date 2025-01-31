@@ -15,7 +15,7 @@ export default function ExpC() {
         </div>
         <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
           <div className="border-[#1A5FB4] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-          <p className="text-xl text-wrap overflow-scroll mr-10">
+          <p className="lg:text-lg xl:text-xl text-md text-wrap mr-10">
             C is the programming language I’m most comfortable with. Right now,
             it feels like the most convenient language for me—it's low-level,
             fast, and capable of many things at the C level. I started learning
@@ -99,7 +99,7 @@ export default function ExpC() {
         </div>
         <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
           <div className="border-white border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-          <p className="text-xl">
+          <p className="lg:text-lg xl:text-xl text-md">
             I have{" "}
             <span className="text-xl text-[#33ECD5] font-semibold">
               two Year
