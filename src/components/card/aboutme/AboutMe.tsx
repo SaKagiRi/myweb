@@ -7,7 +7,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 export default function AboutMe() {
   return (
     <div className="bg-[#3A3C41] flex lg:flex-row flex-col lg:justify-end items-center w-4/5 2xl:h-4/5 h-full xl:mt-0 lg:mb-32 xl:mb-0 mb-32 mt-32 bg-opacity-80 rounded-[100px]">
-      <div className="w-1/2 flex flex-col items-center overflow-hidden">
+      <div className="md:w-1/2 w-5/6 flex flex-col items-center overflow-hidden">
         <h1 className="text-5xl text-[#33ECD5] 2xl:mt-0 xl:mt-20 lg:mt-20 mt-10">
           About Me
         </h1>

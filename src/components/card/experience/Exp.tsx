@@ -3,8 +3,8 @@ import { SiNixos, SiNextdotjs, SiCoursera } from "react-icons/si";
 import { VscTerminalBash } from "react-icons/vsc";
 export default function Exp() {
   return (
-    <div className="bg-[#3A3C41] xl:w-2/5 w4/5 h-full xl:mr-52 mx-20 rounded-3xl bg-opacity-85 justify-between items-center flex flex-col">
-      <div className="text-3xl flex flex-row font-semibold mt-10">
+    <div className="bg-[#3A3C41] xl:w-2/5 w-5/6 h-full xl:mr-52 md:mx-20 rounded-3xl bg-opacity-85 justify-between items-center flex flex-col">
+      <div className="xl:text-3xl md:text-2xl text-xl mb-3 flex flex-row items-center  justify-center font-semibold mt-10">
         <p>Programming Experience</p>
       </div>
       <div className="mb-28 flex flex-col gap-3 h-4/5 w-4/5">
@@ -13,7 +13,7 @@ export default function Exp() {
             <SiNixos className="text-5xl text-[#33ECD5]" />
             <p className="text-2xl">Nix</p>
           </div>
-          <div className="flex flex-row gap-14 ml-3">
+          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-[#33ECD5] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
             <p className="text-xl">
               I have been using the Nix language for{" "}
@@ -37,7 +37,7 @@ export default function Exp() {
             <SiNextdotjs className="text-5xl text-[#000000]" />
             <p className="text-2xl">Next.js</p>
           </div>
-          <div className="flex flex-row gap-14 ml-3">
+          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-[#000000] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
             <p className="text-xl">
               I have{" "}
@@ -57,7 +57,7 @@ export default function Exp() {
             <SiCoursera className="text-5xl text-[#1A5FB4]" />
             <p className="text-2xl">clang</p>
           </div>
-          <div className="flex flex-row gap-14 ml-3">
+          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-[#1A5FB4] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
             <p className="text-xl">
               This is my favorite and main programming language. I have been
@@ -106,7 +106,7 @@ export default function Exp() {
             <VscTerminalBash className="text-5xl text-white" />
             <p className="text-2xl">Shell</p>
           </div>
-          <div className="flex flex-row gap-14 ml-3">
+          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-white border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
             <p className="text-xl">
               I have{" "}
