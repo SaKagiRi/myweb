@@ -7,7 +7,7 @@ import AboutMe from "@/components/card/aboutme/AboutMe";
 
 export default function Home() {
   return (
-    <section className="bg-black flex flex-col h-full w-screen">
+    <section className="bg-black flex text-white flex-col h-full w-screen">
       <section className="bg-[#122029] flex flex-col items-center lg:h-screen w-screen h-full">
         <Navbar />
         <div className="flex justify-center">
