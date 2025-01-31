@@ -3,7 +3,7 @@ import { SiNixos, SiNextdotjs, SiCoursera } from "react-icons/si";
 import { VscTerminalBash } from "react-icons/vsc";
 export default function Exp() {
   return (
-    <div className="bg-[#3A3C41] xl:w-2/5 w-5/6 h-full xl:mr-52 md:mx-20 rounded-3xl bg-opacity-85 justify-between items-center flex flex-col">
+    <div className="bg-[#3A3C41] xl:w-2/5 lg:w-5/6 h-full md:mx-20 rounded-3xl bg-opacity-85 justify-between items-center flex flex-col">
       <div className="xl:text-3xl md:text-2xl text-xl mb-3 flex flex-row items-center  justify-center font-semibold mt-10">
         <p>Programming Experience</p>
       </div>
@@ -15,20 +15,25 @@ export default function Exp() {
           </div>
           <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-[#33ECD5] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-            <p className="text-xl">
-              I have been using the Nix language for{" "}
+            <p className="lg:text-lg xl:text-xl text-md">
+              I have{" "}
               <span className="text-xl text-[#33ECD5] font-semibold">
                 a year
               </span>{" "}
-              at nix language. I primarily use it to maintain my computer
-              software, update packages, and customize package configurations,
-              such as Hyprland and Neovim. You can check out my work in{" "}
+              of experience with the Nix programming language. I created a
+              project that uses Nix to manage computers, called{" "}
               <Link
-                href=""
+                href="https://github.com/SaKagiRi/NixDotsFile"
                 className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
               >
                 NixDotsFile
               </Link>
+              . For me, the most challenging part of working with Nix is
+              understanding the details of modules and modifying configurations.
+              This is because Nix has its own unique syntax, which is often
+              different from the syntax used in the configuration of each
+              module. Sometimes, it’s difficult to determine whether an error is
+              caused by the module itself or by a mistake in the configuration.
             </p>
           </div>
         </div>
@@ -39,98 +44,13 @@ export default function Exp() {
           </div>
           <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
             <div className="border-[#000000] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-            <p className="text-xl">
+            <p className="lg:text-lg xl:text-xl text-md">
               I have{" "}
-              <span className="text-xl text-[#33ECD5] font-semibold">
+              <span className="text-lg text-[#33ECD5] font-semibold">
                 three months
               </span>{" "}
-              of experience with Next.js from my freelance work. I am currently
-              studying frontend development, focusing on Tailwind CSS. I also
-              have some knowledge of basic algorithms and workflow processes.
-              Unfortunately, I can't showcase my work due to an NDA contract,
-              but I hope this webpage can demonstrate my experience.
-            </p>
-          </div>
-        </div>
-        <div className="h-2/5 rounded-3xl">
-          <div className="flex flex-row items-center gap-2">
-            <SiCoursera className="text-5xl text-[#1A5FB4]" />
-            <p className="text-2xl">clang</p>
-          </div>
-          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
-            <div className="border-[#1A5FB4] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-            <p className="text-xl">
-              This is my favorite and main programming language. I have been
-              using it for{" "}
-              <span className="text-xl text-[#33ECD5] font-semibold">
-                two year
-              </span>{" "}
-              to build my own projects, such as{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                Libft
-              </Link>
-              ,{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                ft_printf
-              </Link>
-              ,{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                push_swap
-              </Link>
-              ,{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                Pipex
-              </Link>
-              , and to learn new technologies. I have a good understanding of
-              the language and its syntax, and I am familiar with basic
-              algorithms and data structures. I am currently studying the
-              language in depth and learning new technologies to improve my
-              skills.
-            </p>
-          </div>
-        </div>
-        <div className="h-1/6 rounded-3xl">
-          <div className="flex flex-row items-center gap-2">
-            <VscTerminalBash className="text-5xl text-white" />
-            <p className="text-2xl">Shell</p>
-          </div>
-          <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
-            <div className="border-white border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-            <p className="text-xl">
-              I have{" "}
-              <span className="text-xl text-[#33ECD5] font-semibold">
-                two Year
-              </span>{" "}
-              of experience too, becuase I start to learn shell script when I
-              start to learn C language. I use it to automate my workflow,
-              create scripts to manage my computer, and customize my terminal. I
-              also use it to create scripts for my projects, such as{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                gamemode.sh
-              </Link>
-              ,{" "}
-              <Link
-                href="#"
-                className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
-              >
-                random_wallpaper.sh
-              </Link>
-              .
+				of experience with Next.js. During these three months, I encountered a lot of issues—probably because I jumped straight from HTML into this framework. This led to difficulties with server-related concepts, libraries, and even package management. In the beginning, no matter what I tried, I kept running into errors.
+So, I decided to go back to the basics. I started by using Tailwind CSS to build a simple static webpage. Then, I gradually expanded it by adding multiple pages, making it more dynamic and adaptable. Now, I’m at the stage where I’m learning how to deploy it to a server. Of course, this comes with its own set of challenges, but if you’re seeing this website right now, that means I’ve successfully made it work
             </p>
           </div>
         </div>

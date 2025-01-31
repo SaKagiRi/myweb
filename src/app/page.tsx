@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CgMail } from "react-icons/cg";
 import Navbar from "@/components/navbar/Navbar";
 import Exp from "@/components/card/experience/Exp";
+import ExpC from "@/components/card/experience/ExpC";
 import AboutMe from "@/components/card/aboutme/AboutMe";
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
                 Backend Developer
               </p>
               <p className="md:text-3xl sm:text-2xl text-xl opacity-50">
-                #just have a little bit frontend
+                #just have a little bit frontend skill
               </p>
               <div className="flex flex-col md:items-start items-center">
                 <p className="md:text-2xl sm:text-xl text-lg">
@@ -51,7 +52,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="https://github.com/SaKagiRi"
-                  className="bg-[#33ECD5] opacity-80 hover:opacity-100 text-black flex justify-center text-2xl font-semibold rounded-[20px] px-5 py-2 mt-10"
+                  className="bg-[#33ECD5] opacity-80 hover:opacity-100 text-black items-center text-nowrap flex justify-center text-2xl font-semibold rounded-[20px] px-5 py-2 mt-10"
                 >
                   Lets see my work.
                 </Link>
@@ -90,8 +91,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-black h-screen w-screen">
-        <div></div>
+      <section className="bg-black  h-full w-screen bg-[url(/photo-04.jpg)] bg-cover bg-origin-content bg-center">
+        <div className="bg-black w-screen h-full bg-opacity-60">
+          <div className="flex lg:py-32 items-center justify-center">
+            <ExpC />
+          </div>
+        </div>
       </section>
       <section className="bg-[#454B52] h-screen w-screen">
         <div></div>
