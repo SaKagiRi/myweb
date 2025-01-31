@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { SiNixos, SiNextdotjs, SiCoursera } from "react-icons/si";
@@ -13,83 +14,60 @@ export default function ExpC() {
           <SiCoursera className="text-5xl text-[#1A5FB4]" />
           <p className="text-2xl">clang</p>
         </div>
-        <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
-          <div className="border-[#1A5FB4] border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
-          <p className="lg:text-lg xl:text-xl text-md text-wrap mr-10">
-            C is the programming language I’m most comfortable with. Right now,
-            it feels like the most convenient language for me—it's low-level,
-            fast, and capable of many things at the C level. I started learning
-            it{" "}
+        <div className="flex flex-row xl:gap-14 lg:flex-nowrap flex-wrap justify-center items-center lg:gap-8 gap-4 ml-3">
+          <div className="border-[#1A5FB4] lg:border-l-2 lg:border-t-0 border-l-0 border-t-2 w-full lg:mt-0 mt-3 pr-3 border-b-2 lg:w-3 mb-2 lg:ml-3"></div>
+          <p className="lg:text-lg xl:text-xl text-md text-wrap mr-10 xl:mr-32">
+            C is the language I’m most comfortable with. I started learning it{" "}
             <span className="text-xl text-[#33ECD5] font-semibold">
               two year
             </span>{" "}
-            ago when I joined 42 Bangkok. The school gave me the opportunity to
-            try many things, and at first, it was really challenging, especially
-            since C was one of the first languages I learned. The first major
-            obstacle I encountered was pointers (*). Back then, I had no idea
-            how they worked. They seemed complicated and intimidating. At first,
-            I struggled with simple dereferencing, but as I progressed, I ran
-            into more severe issues, like memory leaks that were almost
-            impossible to track down. Debugging them became a nightmare because
-            sometimes the program wouldn't crash immediately—the memory would
-            just slowly get consumed until everything broke down. Then, there
-            were segmentation faults—one of the most frustrating errors. The
-            worst part? It doesn't always tell you exactly where the problem is.
-            One time, I spent days debugging an issue, only to realize that I
-            had freed a pointer too early and accessed invalid memory later on.
-            That moment made me realize how unforgiving low-level memory
-            management can be. Despite the struggles, I kept pushing forward.
-            Eventually, I went deep into memory allocation and built part of a C
-            library. This project{" "}
+            ago at 42 Bangkok and quickly faced major challenges, especially
+            with pointers and memory management. At first, I struggled with
+            dereferencing, memory leaks that were hard to track, and
+            segmentation faults that provided little debugging information.
+            These issues made debugging a nightmare. But I kept pushing forward.
+            I learned to manage memory properly and built{" "}
             <Link
               href="https://github.com/SaKagiRi/Libft"
               className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
             >
               Libft
             </Link>{" "}
-            is a collection of everything I’ve learned along the way, from
-            handling memory safely to writing reusable functions. After that, I
-            took on a new challenge: implementing my own version of printf. This
-            project was particularly tough because it required deep
-            understanding of variadic functions (va_list) and low-level
-            formatting. I also had to ensure that I didn’t cause buffer
-            overflows, which could lead to unexpected behavior. There were
-            moments when my implementation entered an infinite loop because I
-            hadn’t accounted for edge cases correctly. Debugging an infinite
-            loop with just printf debugging was painful, but I eventually found
-            the root cause. The final result of my work is here:{" "}
+            , my own C library. Then came{" "}
             <Link
               href="https://github.com/SaKagiRi/ft_printf"
               className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
             >
               ft_printf
             </Link>
-            . Next, I attempted something even more complex: building a partial
-            replica of Bash from scratch. This was the most difficult project I
-            had ever worked on. Parsing input, handling system calls, and
-            implementing a functional command execution pipeline required an
-            entirely new level of problem-solving. One of the biggest challenges
-            was proper memory management—a single unhandled case of dynamically
-            allocated memory could result in a massive memory leak. In early
-            versions, my shell would keep allocating memory without ever freeing
-            it, leading to slowdowns and eventual crashes. Debugging this was a
-            brutal learning experience. Another issue I faced was handling
-            process management correctly. If I didn’t terminate child processes
-            properly, they would become zombie processes, lingering in the
-            system. This forced me to dive deeper into signal handling and
-            process control. It was by far the longest project I had worked on
-            and the one I had to revise the most times. But despite the
-            difficulty, it’s the project I’m most proud of, as I learned an
-            incredible amount from it:{" "}
+            , where I had to handle variadic functions and prevent buffer
+            overflows. My most challenging project was Pipex, where I delved
+            into signals, process management, and pipeline handling. I
+            encountered issues like memory leaks and zombie processes, but I
+            eventually solved them. Now, I’m starting a graphics project to
+            explore how computers render images. It’s a completely different
+            world from system programming, and I’m excited to dive deep into
+            graphics processing.{" "}
             <Link
               href="https://github.com/SaKagiRi/Pipex"
               className="text-lg text-[#33ECD5] font-semibold border-b-2 w-fit hover:text-[#1C71D8]"
             >
               Pipex
-            </Link>{" "}
-            Right now, I’m taking it even further—I’m working on building a
-            complete Bash implementation from scratch."
+            </Link>
+            , where I delved into signals, process management, and pipeline
+            handling. I encountered issues like memory leaks and zombie
+            processes, but I eventually solved them. Now, I’m starting a
+            graphics project to explore how computers render images. It’s a
+            completely different world from system programming, and I’m excited
+            to dive deep into graphics processing.
           </p>
+          <Image
+            src="/photo-05.jpg"
+            alt="clang"
+            width={400}
+            height={400}
+            className="rounded-3xl object-cover mr-20 mb-10 2xl:h-96 2xl:w-96 xl:h-80 xl:w-80 lg:h-72 lg:w-72 md:h-64 md:w-64 sm:h-56 sm:w-56 h-44 w-44"
+          />
         </div>
       </div>
       <div className="h-1/6 rounded-3xl lg:ml-20 ml-5 mb-20">

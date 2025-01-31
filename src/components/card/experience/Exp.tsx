@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SiNixos, SiNextdotjs, SiCoursera } from "react-icons/si";
-import { VscTerminalBash } from "react-icons/vsc";
 export default function Exp() {
   return (
     <div className="bg-[#3A3C41] xl:w-2/5 lg:w-5/6 h-full md:mx-20 rounded-3xl bg-opacity-85 justify-between items-center flex flex-col">

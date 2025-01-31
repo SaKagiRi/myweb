@@ -80,13 +80,13 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#0F1217] flex justify-center items-center bg-[url(/photo-00.jpg)] bg-opacity-60  lg:h-screen h-full w-screen">
-        <div className="2xl:my-0 my-32 flex justify-center items-center">
+        <div className="2xl:my-0 md:my-32 flex justify-center items-center">
           <AboutMe />
         </div>
       </section>
       <section className="bg-black  h-full w-screen bg-[url(/photo-02.jpg)] bg-cover bg-origin-content bg-center">
         <div className="bg-black w-screen h-full  bg-opacity-60">
-          <div className="flex py-32 items-center 2xl:justify-end justify-center">
+          <div className="flex md:py-32 items-center 2xl:justify-end justify-center">
             <Exp />
           </div>
         </div>
