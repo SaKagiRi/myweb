@@ -98,11 +98,116 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#454B52] h-screen w-screen">
-        <div></div>
+      <section className="bg-[#454B52] h-full w-screen">
+        <h1 className="w-screen text-center my-20 2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-semibold text-[#33ECD5]">
+          Other Skill I have Art skills.
+        </h1>
+        <div className="bg-[#3A3C41] flex-row mb-20 xl:mx-20 xl:py-10 rounded-3xl">
+          <div className="flex flex-row flex-wrap gap-10 justify-center items-center">
+            <Image
+              src="/img-00.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-01.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-02.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-03.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-04.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-05.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-06.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+            <Image
+              src="/img-07.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+          </div>
+          <p className="xl:ml-32 mt-10 2xl:text-2xl xl:text-xl lg:text-lg text-md font-semibold text-white">
+            commission status : <span className="text-[#33ECD5]">open</span>
+          </p>
+          <p className="xl:ml-32 2xl:text-1xl xl:text-lg lg:text-md text-sm font-semibold text-white">
+            {" "}
+            you can join in my <span className="text-[#33ECD5]">
+              discord
+            </span>{" "}
+            for more discription.
+          </p>
+        </div>
       </section>
       <section className="bg-black h-screen w-screen">
-        <div></div>
+        <div className=" flex flex-col items-center w-screen h-ful rounded-3xl justify-center 2xl:mt-20 xl:mt-10 lg:mt-5 mt-0">
+          <p className="text-center text-[#33ECD5] font-semibold text-4xl mt-20">
+            Contact
+          </p>
+          <div className="flex flex-col">
+            <Link
+              href="https://discord.gg/UdxFKNXykR"
+              className="text-center text-[#33ECD5] font-semibold text-2xl mt-10"
+            >
+              Discord
+            </Link>
+            <Link
+              href="https://web.facebook.com/kasichon?locale=th_TH"
+              className="text-center text-[#33ECD5] font-semibold text-2xl mt-10"
+            >
+              Facebook
+            </Link>
+            <Link
+              href="https://www.youtube.com/@sakagiri_ch.9482"
+              className="text-center text-[#33ECD5] font-semibold text-2xl mt-10"
+            >
+              youtube
+            </Link>
+            <Link
+              href="https://www.instagram.com/sakagi_ri/"
+              className="text-center text-[#33ECD5] font-semibold text-2xl mt-10"
+            >
+              Instagram
+            </Link>
+            <p className="text-center text-white font-semibold xl:text-5xl xl:mt-32">
+              Thank you for visiting my website.
+            </p>
+          </div>
+        </div>
       </section>
     </section>
   );

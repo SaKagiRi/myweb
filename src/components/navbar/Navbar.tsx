@@ -1,9 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { FaDiscord, FaFacebookSquare, FaYoutube } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (

@@ -15,7 +15,6 @@ export default function ExpC() {
           <p className="text-2xl">clang</p>
         </div>
         <div className="flex flex-row xl:gap-14 lg:flex-nowrap flex-wrap justify-center items-center lg:gap-8 gap-4 ml-3">
-          <div className="border-[#1A5FB4] lg:border-l-2 lg:border-t-0 border-l-0 border-t-2 w-full lg:mt-0 mt-3 pr-3 border-b-2 lg:w-3 mb-2 lg:ml-3"></div>
           <p className="lg:text-lg xl:text-xl text-md text-wrap mr-10 xl:mr-32">
             C is the language I’m most comfortable with. I started learning it{" "}
             <span className="text-xl text-[#33ECD5] font-semibold">
@@ -75,8 +74,7 @@ export default function ExpC() {
           <VscTerminalBash className="text-5xl text-white" />
           <p className="text-2xl">Shell</p>
         </div>
-        <div className="flex flex-row xl:gap-14 lg:gap-8 gap-4 ml-3">
-          <div className="border-white border-l-2 border-b-2 w-3 mb-2 ml-3"></div>
+        <div className="flex flex-row mr-3 xl:gap-14 lg:gap-8 gap-4 ml-3">
           <p className="lg:text-lg xl:text-xl text-md">
             I have{" "}
             <span className="text-xl text-[#33ECD5] font-semibold">
